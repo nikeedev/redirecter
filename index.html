@@ -7,9 +7,11 @@
 </head>
 <body>
     <p>Link:<p>
-    <input type="text" id="url">
-    <button onclick="document.getElementById('url').value='192.168.86.67:8080'">
+    <input type="text" id="url"><br>
     <button onclick="redirect()">Redirect</button>
+    <br>
+    <br>
+    <button style="background-color: cornflowerblue; color: white; border: 0; padding: 5px; border-radius: 10px;" onclick="document.getElementById('url').value='192.168.86.67:8080'">To chatium!</button>
     <script>
         function redirect(){
             var url = document.getElementById('url').value;
